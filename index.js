@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const { TOKEN } = require("./config/config.js")
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -58,4 +59,4 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 */
 
 
-client.login('ODI1NDQ4ODQ4MjMwNzExMzY2.YF-FJQ.Lqsah3TTqnFNC157P1c5Fclseak');
+client.login(TOKEN);
