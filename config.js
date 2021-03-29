@@ -1,4 +1,4 @@
-const dotenv = require("dotenv").config({ path: __dirname + "./.env" })
+const dotenv = require("dotenv").config()
 
 module.exports = {
   TOKEN: process.env.token
