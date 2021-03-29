@@ -58,4 +58,4 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 */
 
 
-client.login('ODI1NDQ4ODQ4MjMwNzExMzY2.YF-FJQ.zMzKD_WQyyDbZUtR9Y2fBiCEABI');
+client.login('ODI1NDQ4ODQ4MjMwNzExMzY2.YF-FJQ.Lqsah3TTqnFNC157P1c5Fclseak');
