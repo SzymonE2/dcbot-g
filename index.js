@@ -30,8 +30,10 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 
     const channel2 = client.channels.cache.get('776728263334035476');
  
-    if(newUserChannel === "824713613972733994")
-    { 
+    if (
+    newUserChannel !== oldUserChannel &&
+    newUserChannel === '824713613972733994'
+    ){
         // User Joins a voice channel
         channel2.send("Hej @everyone! Ktoś czeka właśnie na rozmowę. Dołączcie!");
     }
